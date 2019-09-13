@@ -1,17 +1,10 @@
 #include <iostream>
+#include "Burrito.h"
 
 using namespace std;
 
-class Temperature{
-public:
-    void coolSaying(){
-        cout << "It's hot today";
-    }
-};
-
 int main()
 {
-    Temperature t;
-    t.coolSaying();
+    Burrito bo;
     return 0;
 }
